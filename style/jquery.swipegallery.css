@@ -1,0 +1,34 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+
+.appGallery{
+    overflow:hidden;
+}
+
+.appGallery ul{
+    list-style:none;
+    position:relative;
+    padding:0px;   
+}
+
+.appGallery li{
+    display:block;
+    float:left; 
+
+
+  
+}
+
+
+.imageHandler{
+    position:absolute;
+    z-index:30;
+    background-image:url('js/trans.png');
+}
+
+.dentro {
+	padding:30px;
+	
+	}
